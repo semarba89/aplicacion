@@ -1,0 +1,67 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+.slick-slide img{
+width: 260px!important;
+}
+.cuerpo {
+  width: 600px;
+  height: 1000px;
+  align-content: center;
+  margin: 5%;
+  top: 0%;
+}
+.titulos {
+  font-size: 30px;
+  text-align: center;
+}
+.subtitulos {
+  font-size: 20px;
+  text-align: center;
+}
+.cuadro{
+  width: 50px;
+  height: 150px;
+  color: aliceblue;
+}
+.legend {
+  width: 50px;
+  height: 50px;
+  color: aliceblue;  
+}
+.footer-copyright-grey-lighten-5{
+  text-align: center;
+}
+
+.nav-wrapper .logo-ajuste {
+  padding: 4px;
+}
+
+.linkedin {
+  width: 2em;
+  height: 2em;
+}
+
+.empleado {
+  width: 1em;
+  height: 22em;
+}
