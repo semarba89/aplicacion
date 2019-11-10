@@ -1,7 +1,8 @@
 const mongoose = require('mongoose')
 
 const paisesSchema = new mongoose.Schema({
-    Pais : {type: String}
+    country: {type: String, required:true},
+    city: {type: String}
  
 })
 
