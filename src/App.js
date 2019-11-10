@@ -7,6 +7,7 @@ import Footer from '../../aplicacion/src/componentes/Footer';
 import Slider from '../../aplicacion/src/componentes/Home2'
 import Header from '../../aplicacion/src/componentes/Header';
 import Empleados from '../../aplicacion/src/componentes/Empleados';
+import ListaPaises from '../../aplicacion/src/componentes/Citys'
 import "./App.css";
 
 
@@ -20,6 +21,7 @@ function App() {
         <Route path='/CrearCuenta' component={CrearCuenta} />
         <Route path='/Home2' component={Slider} />
         <Route path='/Empleados' component={Empleados} />
+        <Route path='/Citys' component={ListaPaises} />
         <Footer />
     </BrowserRouter>
   );
