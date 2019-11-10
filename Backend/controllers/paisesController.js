@@ -1,9 +1,9 @@
-const pais = require('../modells/paisesModel')
+const Pais = require('../modells/paisesModel')
 
 const paisesController = {
-    listarPaises: async(req, res) => {
+    listarPaises: async (req, res) => {
             const data = await Pais.find()
-            res.json(data)
+            res.json({"respuesta":data})
     }
 
 }

@@ -1,7 +1,7 @@
 const mongoose = require('mongoose')
 
 const paisesSchema = new mongoose.Schema({
-    contenido: {type: String}
+    Pais : {type: String}
  
 })
 
