@@ -7,21 +7,24 @@ export default class ListaPaises extends React.Component {
 	}
 
 	async componentDidMount() {
-		const respuesta = await axios.get('http://localhost:6000/api/paises')
+		const respuesta = await axios.get('http://localhost:1000/api/paises')
 		this.setState({listaPaises: respuesta.data})
 	}
 	
 
 	render() {
 		return (
-			<div className="contenedor">
+			<div class="responsive-table">
+				
 		{this.state.listaPaises.map(articulo => {
 			return (
-				<div className="articulo">
+				<div className="responsive-table">
 					<h3>{articulo.contenido}</h3>
 				</div>)			
 		})}
 		</div>
+	
+	
 			)
 		}
 		}

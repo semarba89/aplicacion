@@ -20,6 +20,7 @@ function Header() {
           <li><a href="/CrearCuenta">Crear nueva cuenta</a></li>
           <li><a href="/Home2">Destinos</a></li>
           <li><a href="/Empleados">Nosotros</a></li>
+          <li><a href='/Citys'>Ciudades</a></li>
       </ul>
       <a href="#" data-target="nav-mobile" className="sidenav-trigger"><i className="material-icons black-text">menu</i></a>
     </div>
