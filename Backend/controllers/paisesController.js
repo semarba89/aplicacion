@@ -3,7 +3,7 @@ const Pais = require('../modells/paisesModel')
 const paisesController = {
     listarPaises: async (req, res) => {
             const data = await Pais.find()
-            res.json({"Paises":data})
+            res.json({data})
     },
 
     cargarPaises: async (req, res) => {
